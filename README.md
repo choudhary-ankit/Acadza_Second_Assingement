@@ -27,7 +27,6 @@ According to given task created a simpal one page layout with Drag and Drop func
 1) pixel perfect layout
 2) User can add item into the draggable cart,
 3) User can drag the item from draggable cart and drop that that item into the dropabble cart
-4) perfect Responsive layout
 
 
 
