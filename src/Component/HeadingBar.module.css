@@ -1,0 +1,112 @@
+.body{
+    width: 100%;
+    height: 50px;
+    background-color: #1ed760;
+    display: flex;
+    flex-direction: row;
+}
+.welcome_board{
+    width: 50%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.butler{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+.select_option{
+    width: auto;
+    height: 30px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background:#78cf9a;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 5px 0 5px;
+}
+.divider{
+    width: 2px !important;
+    height: 20px !important;
+    background-color: #d5e0da !important;
+    margin-top: 5px !important;
+}
+.welcome_div{
+    width: auto;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.private_icon{
+    width:15px !important;
+    height: 15px !important;
+}
+.circle_arrang{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    padding: 0 5px 0 5px;
+}
+.ak{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background:#d5e0da;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 12px;
+    position: absolute;
+    right: 75%;
+}
+.two_line{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background:#006699;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.line{
+    width: 5px;
+    height: 60%;
+    background-color: white;
+    border-radius: 5px;
+}
+.butler_div{
+    width: 70px;
+    height: 30px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background:#78cf9a;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 5px 0 5px;
+    margin-right: 15px;
+}

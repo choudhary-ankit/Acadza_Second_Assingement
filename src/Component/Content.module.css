@@ -1,0 +1,114 @@
+.body{
+    width: 100%;
+    height: 700px;
+    background-color: #1ed760;
+}
+.card_arrng{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: flex-start !important;
+    margin-left: 15px;
+}
+.card{
+    width: 250px;
+    height: auto !important;
+    background-color:#d5e0da;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.card_header{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.card_footer{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.item_card_arrng{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.item_card{
+    background-color: white;
+    padding: 5px;
+    width: 80% !important;
+    height: auto !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card_item_drag{
+    background-color: #abe9cd;
+    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+    width: 15% !important;
+    height: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;  
+    border-radius: 5px;
+    font-size: 12px;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    color: white;
+}
+.card_context_arrng{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: none;
+    font-size: 12px;
+}
+.btn_div{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.card_btn{
+    width: 90%;
+    padding: 10px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    outline: none;
+    border: none;
+}

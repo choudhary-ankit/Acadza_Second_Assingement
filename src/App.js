@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import DragAndDrop from './Component/DragAndDrop';
-
+import Content from './Component/Content';
+import HeadingBar from './Component/HeadingBar'
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <DragAndDrop/>
+        <HeadingBar/>
+        <Content/>
       </div>
     )
   }
