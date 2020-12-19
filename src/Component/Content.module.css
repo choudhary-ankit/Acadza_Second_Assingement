@@ -112,3 +112,29 @@
     outline: none;
     border: none;
 }
+@media only screen and (max-width:840px){
+    .card_arrng{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse !important;
+        row-gap: 15px;
+        justify-content: center;
+        align-items: center !important;
+    }
+    .card_item_drag{
+        background-color: #abe9cd;
+        background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+        width: 60% !important;
+        height: auto !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;  
+        border-radius: 5px;
+        font-size: 12px;
+        box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 5px;
+        color: white;
+    }
+}
